@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Home from '@/routes/Home.JSX';
-import About from '@/routes/About.JSX';
-import Login from '@/routes/Login.JSX';
-import Profile from '@/routes/Profile.JSX';
-import NotMatch from '@/routes/NotMatch.JSX';
-import Layout from '@/components/Layout.JSX';
-import SinglePage from '@/routes/SinglePage.JSX';
-import ProtectedRoute from '@/components/ProtectedRoute.JSX';
+import Home from '@/routes/Home';
+import About from '@/routes/About';
+import Login from '@/routes/Login';
+import Profile from '@/routes/Profile';
+import NotMatch from '@/routes/NotMatch';
+import Layout from '@/components/Layout';
+import SinglePage from '@/routes/SinglePage';
+import ProtectedRoute from '@/components/ProtectedRoute';
 
 const TodoApp = () => (
   <Routes>

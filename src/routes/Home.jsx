@@ -1,5 +1,5 @@
-import Header from '@/components/Header.JSX';
-import TodosLogic from '@/components/TodosLogic.JSX';
+import Header from '@/components/Header';
+import TodosLogic from '@/components/TodosLogic';
 
 const Home = () => (
   <div className="todos">

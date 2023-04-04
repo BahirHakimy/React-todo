@@ -1,5 +1,5 @@
-import Header from '@/components/Header.JSX';
-import { useAuthContext } from '@/context/AuthContext.JSX';
+import Header from '@/components/Header';
+import { useAuthContext } from '@/context/AuthContext';
 import styles from '@/styles/Profile.module.css';
 
 const Profile = () => {

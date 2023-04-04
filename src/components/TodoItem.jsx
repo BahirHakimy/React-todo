@@ -1,8 +1,8 @@
 import { useState, useRef } from 'react';
 import { FaTrash } from 'react-icons/fa';
 import { AiFillEdit } from 'react-icons/ai';
-import { useTodosContext } from '@/context/TodosContext.JSX';
-import { useAuthContext } from '@/context/AuthContext.JSX';
+import { useTodosContext } from '@/context/TodosContext';
+import { useAuthContext } from '@/context/AuthContext';
 import styles from '@/styles/TodoItem.module.css';
 
 const TodoItem = ({ itemProp }) => {
@@ -47,11 +47,11 @@ const TodoItem = ({ itemProp }) => {
           onChange={() => handleChange(itemProp.id)}
         />
         {user && (
-          <button onClick={handleEditing}>
+          <button type="button" onClick={handleEditing}>
             <AiFillEdit style={{ color: '#5e5e5e', fontSize: '16px' }} />
           </button>
         )}
-        <button onClick={() => delTodo(itemProp.id)}>
+        <button type="button" onClick={() => delTodo(itemProp.id)}>
           <FaTrash style={{ color: '#5e5e5e', fontSize: '16px' }} />
         </button>
         <span style={itemProp.completed ? completedStyle : null}>

@@ -1,5 +1,5 @@
-import TodoItem from '@/components/TodoItem.JSX';
-import { useTodosContext } from '@/context/TodosContext.JSX';
+import TodoItem from '@/components/TodoItem';
+import { useTodosContext } from '@/context/TodosContext';
 
 const TodosList = () => {
   const { todos } = useTodosContext();

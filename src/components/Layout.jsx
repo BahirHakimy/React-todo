@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from '@/components/Navbar.JSX';
-import { AuthProvider } from '@/context/AuthContext.JSX';
+import Navbar from '@/components/Navbar';
+import { AuthProvider } from '@/context/AuthContext';
 
 const Layout = () => (
   <div className="wrapper">
