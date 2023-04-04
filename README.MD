@@ -108,7 +108,7 @@ To start the development server run
 npm start
 ```
 
-- this command will start the development server on `localhost:5173` address
+- this command will start the development server on `http://127.0.0.1:5173` address
 
 To create and optimized production build run
 
